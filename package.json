@@ -1,0 +1,16 @@
+{
+  "name": "git-clean-branches",
+  "version": "1.0.0",
+  "description": "Interactive CLI to remove local branches whose upstream has been deleted",
+  "type": "module",
+  "bin": {
+    "git-clean-branches": "bin/git-clean-branches.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "git-clean-branches": "link:",
+    "inquirer": "^9.3.7"
+  }
+}
