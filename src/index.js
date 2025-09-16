@@ -36,7 +36,8 @@ async function promptBranches(branches) {
     {
       type: "checkbox",
       name: "selected",
-      message: "选择要删除的本地分支（空格勾选，Enter 确认）：",
+      // Press <space> to select, <a> to toggle all, <i> to invert selection, and <enter> to proceed
+      message: "选择要删除的本地分支（空格勾选，a 全选，i 反选，回车确认）",
       choices: branches,
       pageSize: 20,
     },
